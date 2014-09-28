@@ -12,3 +12,7 @@ copyFileToFolders
 -----------------
 Allows copying a file to all sub folders in a selected folder. This can be done manually, with a file upload, or the parent folder can be scanned every 15 minutes for files. If found, the file is copied into sub folders and then the original is trashed (so it won't be copied again).
 Try it at http://korta.nu/kopiera-filer-till-undermappar
+
+moveUnsortedFiles
+-----------------
+Moves files from Drive root folder to another folder or, if the file exists in another folder too, just removes it from the root folder. The target folder is initally set to "osorterade filer" (Swedish), but can be changed to anything.
