@@ -36,7 +36,7 @@ function moveUnsortedFiles() {
     file = unsortedFiles.next();
     folders = file.getParents();
     while (folders.hasNext()) {
-      if (folders.next().getName() != 'My Drive') {
+      if (folders.next().getName() != DriveApp.getRootFolder().getName()) {
         rootOnly = false;
       }
     }
