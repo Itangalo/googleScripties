@@ -21,16 +21,16 @@ folderCreator
 -------------
 Creates a folder structure defined by a tree-structure object. The example (in Swedish) is based on creating folders for school subjects and courses, where each course has an identical set of folders, but you could use any tree structure. For example:
 
-var kurser = {
-  'first root folder' : {
-    'empty sub folder' : null,
-    'sub folder 2' : {
-      'sub sub folder' : null,
-    },
-  },
-  'second root folder' : {
-    'some sub folder' : null,
-  },
-};
+    var kurser = {
+      'first root folder' : {
+       'empty sub folder' : null,
+       'sub folder 2' : {
+         'sub sub folder' : null,
+       },
+       },
+      'second root folder' : {
+        'some sub folder' : null,
+      },
+    };
 
 Instructions for using the script is found in the code itself.
