@@ -41,6 +41,10 @@ var kurser = {
 
 };
 
+/**
+ * Den här funktionen gör själva jobbet. Den anropar sig själv rekursivt, och är därför
+ * inte helt enkel att förstå sig på. Sorry about that.
+ */
 function createFolders(parentId, childFolders) {
   var folder, parentFolder;
   if (parentId == undefined) {
