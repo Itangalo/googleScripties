@@ -1,5 +1,5 @@
 /**
- * Använd File-menyn för att kopiera det här skriptet. Sedan redigerar du
+ * Kopiera och klistra in den här koden i ett Google script-dokument. Sedan redigerar du
  * variablerna 'mappar' och 'kurser' nedan, så att de stämmer med vad du vill
  * skapa.
  *
