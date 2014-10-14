@@ -34,3 +34,7 @@ Creates a folder structure defined by a tree-structure object. The example (in S
     };
 
 Instructions for using the script is found in the code itself.
+
+moveToSafeFolder
+----------------
+Moves files (and folders) from given folders to target folders. Good if you have a folder editable by, say, all teachers on the school but you don't want that teachers accidentally delete others' files. Requires that you either run the script manually, or that you manually add a time-dependent trigger.
